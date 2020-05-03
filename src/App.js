@@ -11,7 +11,6 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <main>
-        <p>Pika Pika</p>
         <PokemonsContainer />
       </main>
     </ApolloProvider>
